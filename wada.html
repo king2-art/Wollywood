@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nirvana Bollywood</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        }
+
+        body {
+            background-color: #f5f5f5;
+        }
+
+        .header {
+            background-color: white;
+            color: white;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .logo img {
+            height: 40px;
+            width: auto;
+        }
+
+        .logo-text {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav-links {
+            position: absolute;
+            right: 0;
+            display: flex;
+            gap: 2rem;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .hero {
+            background-color: #bdbbbb;
+            color: rgb(42, 40, 40);
+            padding: 4rem 2rem;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+            opacity: 0.8;
+        }
+
+        .featured-video {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+            text-align: center;
+        }
+
+        .featured-video video {
+            width: 100%;
+            max-width: 800px;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .video-grid {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        .h2 {
+            text-align: center;
+        }
+      
+
+        .video-card {
+            background: white;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            transition: transform 0.2s;
+        }
+
+        .video-card:hover {
+            transform: translateY(-4px);
+        }
+
+        .video-card video {
+            width: 100%;
+            height: auto;
+        }
+
+        .video-info {
+            padding: 1rem;
+        }
+
+        .video-info h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        .video-info p {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        .footer {
+            background-color: #f1ecec;
+            color: rgb(60, 59, 59);
+            padding: 2rem;
+            margin-top: 4rem;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .nav {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .nav-links {
+                position: static;
+                justify-content: center;
+            }
+
+            .hero h1 {
+                font-size: 2rem;
+            }
+
+            .video-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="logo">
+                <img src="NIRVANA REALTY - LOGO FILE - BLACK-03-01.png" alt="NIRVANA REALTY">
+            </a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Customer Testimonial</h1>
+        <p>Real stories from those who found their dream holiday home at Nirvana Wollywood</p>
+    </section>
+
+    
+
+    <section class="featured-video">
+        <h1>Nirvana Wollywood, Wada</h1>
+       
+    </section>
+    <section class="video-grid">
+        
+        <div class="video-card">
+                <iframe width="360" height="315" src="https://www.youtube.com/embed/eOCu7vrJHY4?si=r2ntbiQ3v7EPhrRA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-info">
+                <h3>Mr and Mrs Baxi</h3>
+                <p>It is best of both worlds” is how are dearest residents, Mr and Mrs Baxi express their sentiment.
+                </p>
+            </div>
+        </div>
+
+        <div class="video-card">
+            <iframe width="360" height="315" src="https://www.youtube.com/embed/qFadQLeV38U?si=Ema1jQo2w0zJFX6I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-info">
+                <h3>Mr. & Mrs. Vaishnav</h3>
+                <p> took the leap into luxury at Nirvana Wollywood and haven't looked back since. 
+
+                    Discover how this decision transformed their lives.</p>
+                   
+            </div>
+        </div>
+        <div class="video-card">
+            <iframe width="360" height="315" src="https://www.youtube.com/embed/L-TIkCN7ZeA?si=6XueCrT-H_gC2iOT" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="video-info">
+            <h3>Mr. & Mrs. Thakar</h3>
+            <p>Meet Our Very Own Mr. & Mrs. Thakar, who found their dream villa in Nirvana Wollywood 
+                Dive into their journey and discover how this paradise became theirs.</p>
+        </div>
+    </div>
+
+    <div class="video-card">
+        <iframe width="360" height="315"src="https://www.youtube.com/embed/ftjG3vIAyIo?si=tBcuiOpx0LibIXVA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="video-info">
+            <h3>Mr Gautam Verma</h3>
+            <p>Imagine a mesmerizing world that opens on a 70mm backdrop of sheer breath taking locales. An enthralling experience awaits you with open arms. Inviting your weary senses to a silent promise of rejuvenation.</p>
+        </div>
+    </div>
+    <div class="video-card">
+        <iframe width="360" height="315"src="https://www.youtube.com/embed/uPuqeksF6wg?si=L4Vi8rpZsDnOUo-T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="video-info">
+            <h3>Mr. Sayesh Nayak</h3>
+            <p>The moment I saw Wollywood, I knew this is going to be my home," is how our dearest resident of Nirvana Wollywood, Mr. Sayesh Nayak and his family expresses their sentiments 
+                </p>
+        </div>
+    </div>
+ 
+        
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Nirvana Realty. All rights reserved.</p>
+    </footer>
+</body>
+</html>
